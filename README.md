@@ -21,7 +21,7 @@ Tested also on Ubuntu 20.04 LTS on February, 12 2021
   
 ## Misc
 1. Spotify is fucked if u get latest release from their repository/snap store - if you try to add local files location it crashes, so use the older version (1.1.26.501) of the client from here: 
-  * https://repository-origin.spotify.com/pool/non-free/s/spotify-client/
+   * https://repository-origin.spotify.com/pool/non-free/s/spotify-client/
 
 1. Not sure if it was relevant but before installing this I got these extra codecs:
-  * `sudo apt install ubuntu-restricted-extras ffmpeg libavcodec-extra libavcodec-extra58 libavutil56 libavformat58 zenity -y`
+   * `sudo apt install ubuntu-restricted-extras ffmpeg libavcodec-extra libavcodec-extra58 libavutil56 libavformat58 zenity -y`
