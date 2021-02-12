@@ -1,8 +1,12 @@
 # spotify_libraries
-Some files required to run the local music files in Ubuntu 16.04 LTS on Spotify 1.0.28.89.
+Some files required to run local music files in Spotify on Linux
 
-Tested also on Debian Jessie and Scratch (testing) on Jun, 6 2016
-Tested also on Ubuntu 20.04 LTS on February, 12 2021
+* originally for `Spotify 1.0.28.89` running on `Ubuntu 16.04 LTS`
+
+* tested also on:
+   * Debian Jessie and Scratch (testing) on Jun, 6 2016
+   * Ubuntu 20.04 LTS on February, 12 2021
+      * Spotify version: `1.1.26.501`
 
 ## Instalation
 
