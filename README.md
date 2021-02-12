@@ -24,7 +24,7 @@ Some files required to run local music files in Spotify on Linux
         * So, execute command: `sudo ln -rs` /usr/lib/x86_64-linux-gnu/libavutil.so.52.6.100 /usr/lib/x86_64-linux-gnu/libavutil.so.52
   
 ## Misc
-1. Snap store and spotify's repository hold a newer broken version which crashes when you try to add local files location, use older version of the client instead:
+1. Snap store and spotify's repository hold a newer broken version of spotify client, which crashes when you try to add local files location. Use older version of the client instead:
    * [direct download][client_download]
    * [spotify client repository][client]  - (the above link directly downloads version 1.1.26.501 from this repository) 
    
