@@ -18,10 +18,6 @@ Some files required to run local music files in Spotify on Linux
     * use `sudo cp -a /source/. /usr/lib/x86_64-linux-gnu/`  
 
 1. Execute: `sudo ldconfig`
-
-1. If show any problem with link, make new links.
-        * e.g.: "/sbin/ldconfig.real: /usr/lib/x86_64-linux-gnu/libavutil.so.52 it's not a symbolic link"
-        * So, execute command: `sudo ln -rs` /usr/lib/x86_64-linux-gnu/libavutil.so.52.6.100 /usr/lib/x86_64-linux-gnu/libavutil.so.52
   
 ## Misc
 1. Snap store and spotify's repository hold a newer broken version of spotify client, which crashes when you try to add local files location. Use older version of the client instead:
@@ -31,6 +27,10 @@ Some files required to run local music files in Spotify on Linux
 
 1. Not sure if it was relevant but before installing this I got these extra codecs:
    * `sudo apt install ubuntu-restricted-extras ffmpeg libavcodec-extra libavcodec-extra58 libavutil56 libavformat58 zenity -y`
+   
+1. If show any problem with link, make new links.
+    * e.g.: `/sbin/ldconfig.real: /usr/lib/x86_64-linux-gnu/libavutil.so.52 it's not a symbolic link`
+    * So, execute command: `sudo ln -rs /usr/lib/x86_64-linux-gnu/libavutil.so.52.6.100 /usr/lib/x86_64-linux-gnu/libavutil.so.52`
 
 [client_download]:         https://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.1.26.501.gbe11e53b-15_amd64.deb      "older spotify client download"
 [client]:                  https://repository-origin.spotify.com/pool/non-free/s/spotify-client/         "repository with older versions of the client"
